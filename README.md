@@ -1,7 +1,7 @@
 ## Uber pick-ups project
 Uber's data team would like to work on a project where the app would recommend hot zones in major cities to be in at any given time of day.
 
-## Goal of this project
+## Goal
 - Devise a method to determine where are the hot zones per hour per day
 - Use two unsupervised learning algorithm (DBSCAN and K-means) for this project
 - Show hot zones on an interactive dashboard where the user could just press the play button and see the evolution for each hour
