@@ -11,8 +11,8 @@ Uber's data team would like to work on a project where the app would recommend h
 - K-means clustering algorithm was also used to solve the Uber pick-ups problem. The Elbow and Silhouette methods have been applied to find the optimal number of clusters.
 
 ## Constraints
-- Processing the huge dataset required much time. To reduce processing time, a random sample of 100 000 observations from the datasets.
+- Processing the huge dataset required much time. To reduce processing time, a random sample of 100 000 observations was taken from the original dataset.
 - Another drawback was my poor knowledge of New York City. I tried to gain some domain knowledge by web searches but it was quite frustrating not being able to know whether the clustering algorithm was performing well or not.
 
 ## Conclusion
-- It would be a good idea to work on this project again to test how other hyperparameters (euclidean distance instead of Manhattan distance, for example) influence the DBSCAN algorithm.
+- The overall result with DBSCAN was not satisfying. I will work on this project againand try to test how other hyperparameters (euclidean distance instead of Manhattan distance, for example) influence the DBSCAN algorithm.
