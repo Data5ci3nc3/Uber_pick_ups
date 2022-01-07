@@ -6,6 +6,9 @@ Uber's data team would like to work on a project where the app would recommend h
 - Use two unsupervised learning algorithm (DBSCAN and K-means) for this project
 - Show hot zones on an interactive dashboard where the user could just press the play button and see the evolution for each hour
 
+## Note
+The interactive graphs cannot be rendered in the Jupyter notebook uploaded in this repository. All the interactive maps of this project are therefore hosted on the following mini website: https://www.mydatapassion.com/Uber/1_sunday.html
+
 ## Methodology
 - The first intuition while reading this project was to use DBSCAN. Given that the number of clusters had not to be specified, the DBSCAN algorithm has been used right away to solve the problem. Different epsilon and min_sample values have been used to obtain the most appropriate results. However, I must admit that I am not satisfied with the different clusters I have obtained.
 - K-means clustering algorithm was also used to solve the Uber pick-ups problem. The Elbow and Silhouette methods have been applied to find the optimal number of clusters.
